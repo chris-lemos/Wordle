@@ -5,3 +5,4 @@
 * **possible words** - a unique feature of this project is the implementation of an algorithm that displays how many possible words are left given the board state.
 
 ###### Created using React and Framer-Motion
+###### preview: https://effortless-palmier-fc57c7.netlify.app/
