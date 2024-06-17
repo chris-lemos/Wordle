@@ -410,9 +410,9 @@ function reducer(state, action) {
         message: rank[state.currentRow - 1],
       };
     case "reset": // reset state, flip-back animation
-      if (!state.controls && state.gameState !== "WON") {
-        console.log("a");
-      }
+    if (!state.controls && state.gameState !== "WON") return { ...state };
+
+      
 
       document.activeElement.blur();
       updatedGrid = [...state.grid];
